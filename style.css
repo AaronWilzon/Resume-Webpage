@@ -11,9 +11,17 @@ html {
 }
 
 h1 {
+	font-size: 3.5rem;
 	color: white;
-	margin-left: 1.25rem;
+	margin-top: .5rem;
+	animation-delay: .25s;
+	text-shadow: .5rem .5rem black;
+}
 
+b:hover {
+	color: #595770;
+	cursor: pointer;
+	transform: rotateZ(10deg);
 }
 
 .container {
@@ -23,7 +31,7 @@ h1 {
 
 .btn-xl {
 	border-radius: 5rem;
-	
+	box-shadow: .3rem .3rem #121117;
 }
 
 .btn-xl:hover {
